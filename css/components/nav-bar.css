@@ -1,6 +1,41 @@
 .nav__list {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid rgba(0, 0, 0, 0.08);
     background-color: #f9f9fa;
     padding: 20px 40px;
+}
+.nav__link {
+    position: relative;
+}
+.nav__span {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 17px;
+    bottom: 17px;
+}
+.nav__link {
+    position: relative;
+}
+.nav__list .nav__item:nth-child(4) .nav__span {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    color: transparent;
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
 }
