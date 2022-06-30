@@ -1,0 +1,11 @@
+.user-component__badge  {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+}

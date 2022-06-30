@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Freinds - Cocoa clone</title>
+    <title>Chats - Cocoa clone</title>
   </head>
   <body>
     <div id="status-bar">
@@ -23,48 +23,26 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icon">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-comment-medical fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
-    <a class="friend-info__link" href="#"
-      ><i class="fa-solid fa-circle-info fa-lg"></i>Friend's Names Display<i
-        class="fa-solid fa-angle-right fa-xs"
-      ></i
-    ></a>
     <main class="friends-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img src="images/logo.jpg" class="user-component__avatar--xl" />
+          <img src="images/logo.jpg" class="user-component__avatar" />
           <div class="user-component__text">
             <h4 class="user-component__title">Anything</h4>
-            <!-- <h5 class="user-component__subtitle">You can do Anything!!</h5> -->
+            <h5 class="user-component__subtitle">You can do Anything!!</h5>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span><i class="fa-solid fa-angle-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img src="images/logo.jpg" class="user-component__avatar--sm" />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title-not-bold">
-                Channel
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-angle-right fa-xs"></i>
-            </div>
-          </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="user-component__badge">1</div>
         </div>
       </div>
     </main>
@@ -72,13 +50,13 @@
       <ul class="nav__list">
         <li class="nav__item">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="chats.html">
             <span class="user-component__badge nav__span"> 1 </span>
-            <i class="fa-regular fa-comment fa-2x"></i
+            <i class="fa-solid fa-comment fa-2x"></i></i
           ></a>
         </li>
         <li class="nav__item">
