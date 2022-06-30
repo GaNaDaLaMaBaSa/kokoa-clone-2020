@@ -1,6 +1,15 @@
+
+.user-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .user-component .user-component__column:nth-child(1)    {
     display: flex;
     align-items: center;
+}
+.user-component__column:nth-child(2)    {
+    color: rgba(0, 0, 0, 0.4);
 }
 .user-component__avatar {
     width: 70px;
@@ -12,7 +21,20 @@
     font-size: 23px;
     margin-left: 15px;
 }
+.user-component__title-not-bold {
+    font-weight: 400;
+}
 .user-component__subtitle {
     margin-top: 11px;
     color: rgba(0, 0, 0, 0.6);
+}
+.user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+    border-radius: 37%;
+}
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 37%;
 }
