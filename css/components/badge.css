@@ -1,4 +1,4 @@
-.user-component__badge  {
+.user-component__badge-bg  {
     width: 23px;
     height: 23px;
     display: flex;
@@ -8,4 +8,12 @@
     background-color: tomato;
     color: white;
     font-weight: 600;
+}
+.user-component__badge-sm   {
+    background-color: tomato;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    color: transparent;
 }

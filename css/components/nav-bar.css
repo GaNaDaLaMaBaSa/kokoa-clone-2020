@@ -17,16 +17,8 @@
     left: 17px;
     bottom: 17px;
 }
-.nav__link {
-    position: relative;
-}
-.nav__list .nav__item:nth-child(4) .nav__span {
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    color: transparent;
+.nav__span_1 {
     position: absolute;
-    left: 30px;
-    bottom: 25px;
+    left: 31px;
+    bottom: 26px;
 }

@@ -13,7 +13,7 @@
 .friend-info__link {
     font-weight: 600;
 }
-.friends-screen {
+.main-screen {
     padding: 0px var(--horizontal-space);
 }
 .friends-screen__channel {

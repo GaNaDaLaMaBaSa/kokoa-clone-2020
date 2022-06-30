@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Cocoa clone</title>
+    <title>Find - Cocoa clone</title>
   </head>
   <body>
     <div id="status-bar">
@@ -23,28 +23,22 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icon">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-comment-medical fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span class="screen-header__icon-column"><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span class="screen-header__icon-column">
+            <i class="fa-solid fa-gear fa-lg"></i>
+            <span class="user-component__badge-sm screen-header__span">1</span>
+        </span>
       </div>
     </header>
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="images/logo.jpg" class="user-component__avatar" />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Anything</h4>
-            <h5 class="user-component__subtitle">You can do Anything!!</h5>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="user-component__badge">1</div>
-        </div>
-      </div>
+     <div class="find-icons">
+        <div class="find-icons__icon"><i class="fa-solid fa-qrcode"></i><span>QR code</span></div>
+        <div class="find-icons__icon"><i class="fa-regular fa-address-book"></i><span>Add by Contacts</span></div>
+        <div class="find-icons__icon"><i class="fa-solid fa-fingerprint"></i><span>Add by ID</span></div>
+        <div class="find-icons__icon"><i class="fa-regular fa-envelope"></i><span>Invite</span></div>
+     </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -56,7 +50,7 @@
         <li class="nav__item">
           <a class="nav__link" href="chats.html">
             <span class="user-component__badge-bg nav__span"> 1 </span>
-            <i class="fa-solid fa-comment fa-2x"></i></i
+            <i class="fa-regular fa-comment fa-2x"></i></i
           ></a>
         </li>
         <li class="nav__item">
@@ -65,10 +59,10 @@
           ></a>
         </li>
         <li class="nav__item">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="more.html">
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
             <span class="user-component__badge-sm nav__span_1"> 1 </span>
-            <i class="fa-solid fa-ellipsis fa-2x"></i
-          ></a>
+           </a>
         </li>
       </ul>
     </nav>
