@@ -1,0 +1,54 @@
+.user-component__column:first-child i{
+    color: tomato;
+    margin-left: 7px;
+}
+.user-component__column:nth-child(2)    i{
+    font-size: 30px;
+    color: rgba(0,0,0,0.8)
+}
+.more-screen .raw-icons {
+    margin-top: 25px;
+}
+.raw-icons__icon    {
+    position: relative;
+}
+.raw-icons__badge-sm    {
+    position: absolute;
+    right: 15px;
+    top: -7px;
+}
+.suggestions {
+    border-top: 1px solid var(--default-gray-color);
+    padding: 25px 0px;
+    margin: 25px 0px;
+}
+.suggestions h4 {
+    font-weight: 600;
+}
+.suggestions__icons  {
+    display: flex;
+    margin-top: 25px;
+}
+.suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+.suggestions__icon div  {
+    background-color: var(--yellow);
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suggestions__icon i {
+    font-size: 40px;
+    color: whitesmoke;
+}
+.suggestions__icons span {
+    color: rgba(0,0,0,0.5);
+}
