@@ -93,3 +93,19 @@
     right: 7px;
     bottom: 7px;
 }
+@keyframes heartbeatAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        color: red;
+        transform: scale(200%)
+    }
+    100% {
+        transform: none;
+    }
+}
+.open-chat__heart:hover i {
+    will-change: transform;
+    animation: heartbeatAnimation 1s ease-in-out infinite;
+}

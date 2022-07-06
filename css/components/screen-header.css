@@ -11,3 +11,15 @@
 .screen-header__icon span{
     margin-left: 18px;
 }
+@keyframes gearAnimation {
+    from {
+        transform: none;
+        
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icon .fa-gear:hover {
+    animation: gearAnimation 1.5s linear infinite;
+}

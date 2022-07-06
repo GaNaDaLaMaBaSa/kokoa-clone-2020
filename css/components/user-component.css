@@ -42,6 +42,13 @@
     height: 60px;
     border-radius: 37%;
 }
+.user-component__column:last-child div {
+    display: flex;
+    align-items: center;
+}
+.user-component__column:last-child div i {
+    margin-left: 5px;
+}
 .user-component__time   {
     display: block;
     margin-bottom: 10px;
