@@ -127,9 +127,11 @@
     background-color: var(--yellow);
     border: none;
     border-radius: 50%;
+    transition: all 0.2s ease-in-out;
 }
 .reply__column i {
     opacity: 0.6;
+    transition: all 0.2s ease-in-out;
 }
 .reply__column button i {
     opacity: 1;

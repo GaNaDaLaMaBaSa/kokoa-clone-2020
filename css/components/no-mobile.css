@@ -1,0 +1,35 @@
+.no-mobile {
+    background-color: #ededed;
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+@keyframes nothingAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: rotateY(360deg) translateY(-15px) scale(0.8);
+    }
+    100% {
+        transform: none;
+    }
+}
+.no-mobile img {
+    width: 120px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    animation: nothingAnimation 2.2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@media screen and (max-width:515px) {
+    .no-mobile {
+        display: none;
+    }
+}
